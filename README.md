@@ -4,21 +4,21 @@
 
 內容列表:
 
-- [Golang](#Golang)
-    - [Challenge / Testing / Tutorial](#Challenge / Testing / Tutorial)
-    - [Error Handle](#Error Handle)
-    - [Toolkit](#Toolkit)
-    - [Other Go List](#OtherGoList)
+- [Golang](#golang)
+    - [Challenge / Testing / Tutorial](#challenge--testing--tutorial)
+    - [Error Handle](#error-handle)
+    - [Toolkit](#toolkit)
+    - [Other Go List](#othergolist)
     
     
-# Golang
+## Golang
 
 
-##Challenge / Testing / Tutorial
+### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
     - 透過扮演兩個探員的故事，裡面穿插很多Go programing的測驗．
 
-##Error Handle
+### Error Handle
 
 - [Golang] [GoPanic](https://github.com/joedborg/gopanic) Panic 是Go裡面一個發生錯誤會呼叫的函式，其實只是做memory dump而以．但是為了避免Panic 發生的時候，一些資料被竊取． 
     - [Cold Boot Attack](http://en.wikipedia.org/wiki/Cold_boot_attack):原本指的是加密的key寫在記憶體，卻被冷卻後移除電腦而直接讀取記憶體中的ram．也就是一種資料竊取的手法，而在網路裡面就是指發生panic的時候，卻從dump資料或是處理到一半的資料竊取到有加密的資料．
@@ -30,13 +30,13 @@
         
         
 
-##Toolkit
+### Toolkit
 
 - [Gohinetradio: Getting hinet online radio url & token and open without adobe flash.](https://github.com/toomore/gohinetradio)         
     - 用Go寫的讀取Hinet Radio 的小工具，寫的人是寫出python擷取台灣上市櫃股票[grs](https://github.com/toomore/grs)的[Toomore](http://blog.toomore.net/)
 
 
-##OtherGoList
+### OtherGoList
 
 - [Awesome-go](https://github.com/avelino/awesome-go)
     - 相當多Go kit 資訊的列表，本站也是受它啟發．
