@@ -5,6 +5,8 @@
 內容列表:
 
 - [Golang](#golang)
+    - [Command Line Tools](#command-line-tools)
+    - [Network Framework](#network-framework)
     - [Challenge / Testing / Tutorial](#challenge--testing--tutorial)
     - [Error Handle](#error-handle)
     - [Toolkit](#toolkit)
@@ -12,6 +14,15 @@
     
     
 ## Golang
+
+### Command Line Tools
+- [Gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/motemen/gore)
+    - 另外一個Go REPL的工具，支援許多shortcut跟即時顯示...
+
+### Network Framework
+- [GRPC: Go Project](https://github.com/grpc/grpc-go)
+    - GRPC is a google in house RPC client/server project which support 9+ languages. It also support HTTP/2.
+    - 支援HTTP/2之外，還支援九種以上的語言．並且可以擺脫net/rpc原本需要管理gob的痛苦．
 
 
 ### Challenge / Testing / Tutorial
@@ -26,15 +37,35 @@
         - 建立一個UDP services
         - 當系統呼叫propietary panic function (ex: do_panic() )，就會呼叫這個 UDP services 去做某些事情．（可能是關閉services或是清除暫存資料...等等)
         - do_panic裡頭呼叫的處理部分需要自己處理．
-    - 這個部分可以參考 Python 的[panic_bcast](https://github.com/qnrq/panic_bcast)
-        
-        
+    - 這個部分可以參考 Python 的[panic_bcast](https://github.com/qnrq/panic_bcast)                
 
 ### Toolkit
 
 - [Gohinetradio: Getting hinet online radio url & token and open without adobe flash.](https://github.com/toomore/gohinetradio)         
     - 用Go寫的讀取Hinet Radio 的小工具，寫的人是寫出python擷取台灣上市櫃股票[grs](https://github.com/toomore/grs)的[Toomore](http://blog.toomore.net/)
+- [Viper: A configuration tool of Go](http://spf13.com/project/viper)
+    - 用來讀取與使用Config的工具，開發者是[spf13](http://spf13.com/) [Hugo](http://spf13.com/project/hugo)的開發者．當然，[Hugo](http://spf13.com/project/hugo)也有使用[Viper](http://spf13.com/project/viper)
 
+
+### Meetups
+
+- [Youtube Playlist: London Go Gathering February 2015](https://www.youtube.com/playlist?list=PLtLJO5JKE5YCZYDAt8-uyJbVgq1FIUpVM)
+- [FOSDEM 2015 Video list](http://video.fosdem.org/2015/devroom-go/)
+    - Go at CoreOS by +Kelsey Hightower​​
+        - This session will discuss using Go to build products that make distributed computing as stress-free as installing a Linux distribution.
+    - Finding Bad Needles in Worldwide Haystacks by Dmitry Savintsev
+        - Experience of using Go for a large-scale web security scanner
+    - Moving MongoDB components to Go by +Norberto Leite​​ 
+        - We love Go and this train is unstoppable!  
+    - CockroachDB by +Tobias Schottdorf​​  
+        - Towards an Open-Source Spanner	
+    - HTTP/2 for Go by +Brad Fitzpatrick​​ 
+        - Overview of HTTP/2 and the design of Go's support for it
+    - Go and the modern enterprise by +Peter Bourgon​​ 
+    - bleve - text indexing for Go by +Marty Schoch​​ 
+    - The State of Go by +Andrew Gerrand​​ 
+    - Go Lightning Talks by +Andrew Gerrand​​ 
+        - The Go community on Go﻿
 
 ### OtherGoList
 
