@@ -38,6 +38,8 @@
         - 當系統呼叫propietary panic function (ex: do_panic() )，就會呼叫這個 UDP services 去做某些事情．（可能是關閉services或是清除暫存資料...等等)
         - do_panic裡頭呼叫的處理部分需要自己處理．
     - 這個部分可以參考 Python 的[panic_bcast](https://github.com/qnrq/panic_bcast)                
+- [Managing Application Shutdown in Go](http://vrecan.github.io/post/golang_shutdown/) 
+    - cool pkg... call  "death"
 
 ### Toolkit
 
@@ -45,7 +47,15 @@
     - 用Go寫的讀取Hinet Radio 的小工具，寫的人是寫出python擷取台灣上市櫃股票[grs](https://github.com/toomore/grs)的[Toomore](http://blog.toomore.net/)
 - [Viper: A configuration tool of Go](http://spf13.com/project/viper)
     - 用來讀取與使用Config的工具，開發者是[spf13](http://spf13.com/) [Hugo](http://spf13.com/project/hugo)的開發者．當然，[Hugo](http://spf13.com/project/hugo)也有使用[Viper](http://spf13.com/project/viper)
+- [Russ Cox: Regxp code search in Go](http://swtch.com/~rsc/regexp/regexp4.html)
+    - 有人拿來用說接近2GB的code search竟然也有200ms的速度．相當的恐怖啊．
 
+### Cross Language
+
+- [jvm.go](https://github.com/zxh0/jvm.go)
+    - Run .jar file in Golang, it still under implement but I am looking forward it future update.
+- [gxui: An experimental Go cross platform UI library.](https://github.com/google/gxui)
+    - Written by Googler non-official experimental library for cross platform UI implement.
 
 ### Meetups
 
@@ -66,8 +76,30 @@
     - The State of Go by +Andrew Gerrand​​ 
     - Go Lightning Talks by +Andrew Gerrand​​ 
         - The Go community on Go﻿
-
+- [Youtube: FOSDEM 2015 Go present playlist](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb)
+    - 關於Golng 有關的session集合，總而言之還是HTTP/2跟Go 1.5   
+    
+    
 ### OtherGoList
 
 - [Awesome-go](https://github.com/avelino/awesome-go)
     - 相當多Go kit 資訊的列表，本站也是受它啟發．
+    
+    
+## iOS
+
+### HomeKit
+
+- [HomeKit Sample in Apple Developer:Catalog](https://developer.apple.com/library/ios/samplecode/HomeKitCatalog/Introduction/Intro.html#//apple_ref/doc/uid/TP40015048)    
+- [100 Best Apple HomeKit Videos](http://meta-guide.com/videography/100-best-apple-homekit-videos/)
+
+
+### Apple Watch
+
+- [Apple Watch Sample in Apple Developer: Lister](https://developer.apple.com/library/prerelease/ios/samplecode/Lister/Introduction/Intro.html)
+
+
+## Other tools
+
+- [.bashrc PS1 generator](http://bashrcgenerator.com/)
+    - Generate your .bashrc PS1 prompt easily with a drag and drop interface
