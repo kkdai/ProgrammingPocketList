@@ -11,7 +11,14 @@
     - [Error Handle](#error-handle)
     - [Toolkit](#toolkit)
     - [Other Go List](#othergolist)
-    
+- [iOS](#iOS)
+    - [Homekit](#homekit)
+    - [Apple Watch](#apple-watch)
+- [Android](#android)    
+    - [Android UI](#android-ui)
+- [Python](#python)
+    - [Network](#python-network)
+- [Other Tools](#other-tools)
     
 ## Golang
 
@@ -23,11 +30,13 @@
 - [GRPC: Go Project](https://github.com/grpc/grpc-go)
     - GRPC is a google in house RPC client/server project which support 9+ languages. It also support HTTP/2.
     - 支援HTTP/2之外，還支援九種以上的語言．並且可以擺脫net/rpc原本需要管理gob的痛苦．
-
+- [huandu/facebook: A Facebook Graph API SDK Library For Golang](https://github.com/huandu/facebook)
 
 ### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
     - 透過扮演兩個探員的故事，裡面穿插很多Go programing的測驗．
+- [Go benchmark competition](http://gobench.org/)
+    - 把你的程式碼寫去然後比較誰的效率比較好...
 
 ### Error Handle
 
@@ -99,7 +108,22 @@
 - [Apple Watch Sample in Apple Developer: Lister](https://developer.apple.com/library/prerelease/ios/samplecode/Lister/Introduction/Intro.html)
 
 
+## Android
+
+### Android-UI
+
+- [Glide: Image Loader Library for Android](https://github.com/bumptech/glide)
+    - Introduction and tutorial is [here](http://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en).
+
+## Python
+
+### Python Network
+
+- [Facebook: ATC (Augement Traffic Control) )](https://github.com/facebook/augmented-traffic-control)
+    - Introduction is [here](https://code.facebook.com/posts/1561127100804165/augmented-traffic-control-a-tool-to-simulate-network-conditions/)
+
 ## Other tools
 
 - [.bashrc PS1 generator](http://bashrcgenerator.com/)
     - Generate your .bashrc PS1 prompt easily with a drag and drop interface
+-    
