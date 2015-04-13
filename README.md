@@ -43,12 +43,18 @@
     - GRPC is a google in house RPC client/server project which support 9+ languages. It also support HTTP/2.
     - 支援HTTP/2之外，還支援九種以上的語言．並且可以擺脫net/rpc原本需要管理gob的痛苦．
 - [huandu/facebook: A Facebook Graph API SDK Library For Golang](https://github.com/huandu/facebook)
+- [Echo: Fast HTTP router + micro web framework 
+[http://labstack.github.io/echo](http://labstack.github.io/echo)](https://github.com/labstack/echo)
+    - 簡易的router + web framework. HN 有相關討論．
 
 ### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
     - 透過扮演兩個探員的故事，裡面穿插很多Go programing的測驗．
 - [Go benchmark competition](http://gobench.org/)
     - 把你的程式碼寫去然後比較誰的效率比較好...
+- [Code Jam 2015](https://code.google.com/codejam/distributed_index.html)
+    - 可以用任何語言參加科技競賽，不過會被各國好手慘電．
+- [GoChallenge](http://golang-challenge.com/)    
 
 ### Error Handle
 
@@ -76,6 +82,11 @@
 - [Seven5: Web blog framework include REST and AJAX conbime in Go](http://seven5.github.io/tutorial.html)
     -  裡面包含如何架設一個blog engine並且支援REST與AJAX( 不需要寫jS).   
 - [Go monkeypatching](https://github.com/bouk/monkey)    
+
+### Science 
+
+- [golearn: Machine Learning for Go](https://github.com/sjwhitworth/golearn)
+
     
 ### Multimedia 
 - [Go-Colorful: A library for playing with colors in go (golang).](https://github.com/lucasb-eyer/go-colorful)
