@@ -37,6 +37,8 @@
 - [termui: Golang terminal dashboard](https://github.com/gizak/termui)
 - [bat: Go implement CLI, cURL-like tool for humans](https://github.com/astaxie/bat)   
     - 可以簡單地在command line 發送http或是其他網路相關的指令．
+- [thefuck: Magnificent app which corrects your previous console command.](https://github.com/nvbn/thefuck)
+    - 在console mode 打錯指令的時候，只要打出一個 fuck，自動會幫你把正確的指令拼出來．很有趣的點子．
 
 ### Network Framework
 - [GRPC: Go Project](https://github.com/grpc/grpc-go)
@@ -143,6 +145,8 @@
     - 相當多Go kit 資訊的列表，本站也是受它啟發．
 - [Resources for new Go programmers](http://dave.cheney.net/resources-for-new-go-programmers)    
     - Dave Cheney summarized Go resource page for newbie
+- [Gopher List:A listing of gophers ](https://github.com/gophertown/gophertown-data)        
+    - Send a PR if you are gopher...
     
 ## iOS
 
@@ -178,3 +182,5 @@
 - [Google: Bazel](http://bazel.io/)   
     - A official Google build tool for Android/iOS and Go.....
     - See [here](https://github.com/google/bazel/tree/master/examples/go) for sameple for Go
+- [VS2010: x64dbg](http://x64dbg.com/#start)    
+    - Support MSVC2010
