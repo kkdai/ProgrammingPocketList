@@ -48,6 +48,10 @@
 - [Echo: Fast HTTP router + micro web framework 
 [http://labstack.github.io/echo](http://labstack.github.io/echo)](https://github.com/labstack/echo)
     - 簡易的router + web framework. HN 有相關討論．
+- [http2: HTTP/2 support for Go (in active development)](https://github.com/bradfitz/http2)    
+    - 之後會放入Go基本功能的http2開發
+    - [h2i is an interactive HTTP/2 ("h2") console debugger. Miss the good ol' days of telnetting to your HTTP/1.n servers? We're bringing you back.](https://github.com/bradfitz/http2/tree/master/h2i)
+    
 
 ### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
@@ -84,7 +88,16 @@
 - [Seven5: Web blog framework include REST and AJAX conbime in Go](http://seven5.github.io/tutorial.html)
     -  裡面包含如何架設一個blog engine並且支援REST與AJAX( 不需要寫jS).   
 - [Go monkeypatching](https://github.com/bouk/monkey)    
-
+- [vault: A tool for managing secrets. 
+http://vaultproject.io](https://github.com/hashicorp/vault)
+    - 提供許多保護資料的API不論是secretc或是加密的方式．
+- [deferpanic:Next Generation Production Systems for the Go Engineer](https://deferpanic.com/)
+    - 提供API服務可以監測panic, error handle, memory usage and garbadge collection..  感覺不錯用....
+- [expvarmon: TermUI based monitor for Go apps using expvars (/debug/vars). Quickest way to monitor your Go app(s).](https://github.com/divan/expvarmon)
+    - 提供一個UI來監控Go App (可以多個)
+- [azure-sdk-for-go](https://github.com/Azure/azure-sdk-for-go)    
+    - 一些工具讓你可以在使用azure的services
+    
 ### Science 
 
 - [golearn: Machine Learning for Go](https://github.com/sjwhitworth/golearn)
@@ -100,7 +113,10 @@
 ### Package Management
 - [GPM: Barebones dependency manager for Go.](https://github.com/pote/gpm)
     - look like Ruby RPM package management.
-
+- [bunch: npm-like tool for managing Go dependencies](https://github.com/dkulchenko/bunch)
+    - Similar with GPM ruby RPM base.
+- [gb, the project based build tool for Go](https://github.com/constabulary/gb)
+    - 使用project base的方式來build Go package..     
 
 ### Cross Language
 
@@ -108,6 +124,15 @@
     - Run .jar file in Golang, it still under implement but I am looking forward it future update.
 - [gxui: An experimental Go cross platform UI library.](https://github.com/google/gxui)
     - Written by Googler non-official experimental library for cross platform UI implement.
+- [Visual Studio Extension: Go Language Support](https://visualstudiogallery.msdn.microsoft.com/bd7675ba-1bf5-4395-8c5a-4fc19dfc0d76)
+- [GoRuby, an implementation of Ruby written in Go](https://github.com/goruby/goruby)
+- [go-rpio: Raspberry Pi GPIO library for go-lang](https://github.com/- stianeikeland/go-rpio)
+    - 不需要透過C library 可以存取RPI GPIO 
+
+### UI Framework
+
+- [andlabs/ui: Platform-native GUI library for Go](https://github.com/andlabs/ui)
+- [go-qml/qml: QML support for the Go language](https://github.com/go-qml/qml)
 
 ### Meetups
 
@@ -137,7 +162,6 @@
     - Golang 機器人framework.    
 - [GORT: Robot CLI commands.](http://gort.io/)    
     - CLI command set.
-
     
 ### OtherGoList
 
@@ -147,6 +171,18 @@
     - Dave Cheney summarized Go resource page for newbie
 - [Gopher List:A listing of gophers ](https://github.com/gophertown/gophertown-data)        
     - Send a PR if you are gopher...
+- [Github: Top Go GitHub developers in Taiwan](http://github-awards.com/users?utf8=%E2%9C%93&type=country&language=Go&country=Taiwan)
+
+
+### Interesting Go Repro
+
+- [skelterjohn](https://github.com/skelterjohn?tab=repositories)
+    - Lots of Go repros which written in Go.
+
+### Go Books
+
+[Build Web Application with Golang](http://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html﻿)
+
     
 ## iOS
 
