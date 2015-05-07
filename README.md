@@ -28,7 +28,8 @@
 
 - [Collecting data using BigQuery, Elasticsearch, and Go.](http://www.rounds.com/blog/collecting-user-data-and-usage/)
     - Git is [here](https://github.com/rounds/go-bqstreamer).
-
+- [Disque Client: Go-disque](https://github.com/EverythingMe/go-disque/)
+    - Disque是 Messeage Queue的系統
 
 
 ### Command Line Tools
@@ -39,6 +40,8 @@
     - 可以簡單地在command line 發送http或是其他網路相關的指令．
 - [thefuck: Magnificent app which corrects your previous console command.](https://github.com/nvbn/thefuck)
     - 在console mode 打錯指令的時候，只要打出一個 fuck，自動會幫你把正確的指令拼出來．很有趣的點子．
+- [Colorizing `cat`](https://github.com/jingweno/ccat/)    
+    - 可以讓你的cat加上syntax highlighter，並且因為是用Go寫得，會比[pygments](http://pygments.org/)更快． [這一篇](http://stackoverflow.com/a/30074374/1316907)有簡單的教學如何安裝加上更多的syntax highlither
 
 ### Network Framework
 - [GRPC: Go Project](https://github.com/grpc/grpc-go)
@@ -51,7 +54,11 @@
 - [http2: HTTP/2 support for Go (in active development)](https://github.com/bradfitz/http2)    
     - 之後會放入Go基本功能的http2開發
     - [h2i is an interactive HTTP/2 ("h2") console debugger. Miss the good ol' days of telnetting to your HTTP/1.n servers? We're bringing you back.](https://github.com/bradfitz/http2/tree/master/h2i)
+- [httpdiff: Perform the same request against two HTTP servers and diff the results](https://github.com/jgrahamc/httpdiff)    
+    - 可以比對兩個HTTP server 在protocol 上面有哪些不同的地方．甚至可以比http跟https
     
+- [鱼传尺素--纯golang编写的分布式可伸缩IM服务器](https://github.com/oikomi/FishChatServer)
+    - 號稱擁有p2p, group message 開發中的IM Server
 
 ### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
@@ -73,6 +80,10 @@
     - 這個部分可以參考 Python 的[panic_bcast](https://github.com/qnrq/panic_bcast)                
 - [Managing Application Shutdown in Go](http://vrecan.github.io/post/golang_shutdown/) 
     - cool pkg... call  "death"
+- [Delve is a debugger for the Go programming language.](https://github.com/derekparker/delve)    
+    - Go Debugger目前仍然implement而且在MacOSX要跑還需要cert sign(參考GDB).
+- [Parses panic stack traces, densifies and deduplicates goroutines with similar stack traces. Helps debugging crashes and deadlocks in heavily parallelized process.](https://github.com/maruel/panicparse)
+    - 可以把panic後的callstack 做有效的處理，不論是加上顏色或是將重要的部分加上格式．
 
 ### Toolkit
 
@@ -173,6 +184,10 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
     - Send a PR if you are gopher...
 - [Github: Top Go GitHub developers in Taiwan](http://github-awards.com/users?utf8=%E2%9C%93&type=country&language=Go&country=Taiwan)
 
+### Algorithm
+- [HyperLogLog and HyperLogLog++ implementation in Go/Golang.
+http://godoc.org/github.com/clarkduvall/hyperloglog](https://github.com/clarkduvall/hyperloglog)
+    - Distinct element 的套件
 
 ### Interesting Go Repro
 
@@ -181,7 +196,11 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
 
 ### Go Books
 
-[Build Web Application with Golang](http://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html﻿)
+- [Build Web Application with Golang](http://astaxie.gitbooks.io/build-web-application-with-golang/content/en/index.html﻿)
+- [MIT 6.824 Distribution class](http://nil.csail.mit.edu/6.824/2015/)
+    - 使用Golang當作基本programming language 來體驗 MIT 分散式系統課程... 相當的酷...
+
+    
 
     
 ## iOS
