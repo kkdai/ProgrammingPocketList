@@ -108,6 +108,8 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
     - 提供一個UI來監控Go App (可以多個)
 - [azure-sdk-for-go](https://github.com/Azure/azure-sdk-for-go)    
     - 一些工具讓你可以在使用azure的services
+- [Atom- Go-plus](https://atom.io/packages/go-plus)
+    - Atom plugin 可以結合go-fmt與go-code還有更多...go vet...
     
 ### Science 
 
@@ -215,6 +217,11 @@ http://godoc.org/github.com/clarkduvall/hyperloglog](https://github.com/clarkduv
 
 - [Apple Watch Sample in Apple Developer: Lister](https://developer.apple.com/library/prerelease/ios/samplecode/Lister/Introduction/Intro.html)
 
+### 相關SDK
+
+- [Paypal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK)
+    - 裡面有整套支付流程的SDK．
+    - 這裏有另外的支付流程的方法(How To Accept Credit Cards In Your iOS Apps Using Stripe)[介紹](http://www.raywenderlich.com/30092/how-to-accept-credit-cards-in-your-ios-apps-using-stripe)
 
 ## Android
 
