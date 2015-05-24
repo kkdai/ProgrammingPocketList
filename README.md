@@ -30,7 +30,18 @@
     - Git is [here](https://github.com/rounds/go-bqstreamer).
 - [Disque Client: Go-disque](https://github.com/EverythingMe/go-disque/)
     - Disque是 Messeage Queue的系統
-
+- [pstop - a top-like program for MySQL](https://github.com/sjmudd/pstop)
+    - 像是top一樣顯示MySQL performance
+- [boltDB: A low-level key/value database for Go.](https://github.com/boltdb/bolt)
+    - Low level key/value 的資料庫，完全用Go寫．號稱效能很快． 這裏有相關介紹[slide](http://eagain.net/talks/go-nuts-and-bolts/slides.html)    
+- [mongoDB tools: Include mongodb stat written by Go](https://github.com/mongodb/mongo-tools)
+    - 就是mongoDB的官方使用Golang來開發的工具．其中mongo-state可以查詢資料庫主機的狀態．
+- [Hprose for Golang](https://github.com/hprose/hprose-go)
+    - Hprose is a High Performance Remote Object Service Engine. 類似RPC的遠端溝通方式．不過由於這個project 支援相當多語言(C++, Java, Golang, PHP, Python)，可以注意一下． 
+- [Machinery is an asynchronous task queue/job queue based on distributed message passing.](https://github.com/RichardKnop/machinery)
+    - task/queue的系統．跟disque很類似
+- [ledisdb: a high performance NoSQL powered by Go http://ledisdb.com](https://github.com/siddontang/ledisdb)
+    - 用Go寫出的NoSQL DB，可以在裡頭串接許多資料庫(boltdb，RocksDB，LevelDB)，並且可以支援很多種格式(KV, List, Hash, ZSet)．
 
 ### Command Line Tools
 - [Gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/motemen/gore)
@@ -55,11 +66,14 @@
     - 之後會放入Go基本功能的http2開發
     - [h2i is an interactive HTTP/2 ("h2") console debugger. Miss the good ol' days of telnetting to your HTTP/1.n servers? We're bringing you back.](https://github.com/bradfitz/http2/tree/master/h2i)
 - [httpdiff: Perform the same request against two HTTP servers and diff the results](https://github.com/jgrahamc/httpdiff)    
-    - 可以比對兩個HTTP server 在protocol 上面有哪些不同的地方．甚至可以比http跟https
-    
+    - 可以比對兩個HTTP server 在protocol 上面有哪些不同的地方．甚至可以比http跟https    
 - [鱼传尺素--纯golang编写的分布式可伸缩IM服务器](https://github.com/oikomi/FishChatServer)
     - 號稱擁有p2p, group message 開發中的IM Server
-
+- [rtop: Remote Server Monitoring over SSH](http://www.rtop-monitor.org/)
+    - 可以在SSH上監控流量與跟SSH的伺服器溝通．
+- [caddyserver](https://caddyserver.com/)  
+    - Configurable, general-purpose HTTP/2 web server for any platform
+ 
 ### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
     - 透過扮演兩個探員的故事，裡面穿插很多Go programing的測驗．
@@ -110,6 +124,11 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
     - 一些工具讓你可以在使用azure的services
 - [Atom- Go-plus](https://atom.io/packages/go-plus)
     - Atom plugin 可以結合go-fmt與go-code還有更多...go vet...
+- [besex: Create Youtube-Like IDs With Golang](https://github.com/dineshappavoo/basex)    
+    - 可以建立出encode/decode youtube ID...  會挺有用的.....  主要是長數字與ID之間轉換 (99999 <-> azzds)... 這篇有一篇[文章](http://kvz.io/blog/2009/06/10/create-short-ids-with-php-like-youtube-or-tinyurl/)敘述內容．
+- [slackin: Public Slack organizations made easy](https://github.com/rauchg/slackin)
+    - 可以幫助你快速的讓人加入Slack Group..
+
     
 ### Science 
 
@@ -185,6 +204,8 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
 - [Gopher List:A listing of gophers ](https://github.com/gophertown/gophertown-data)        
     - Send a PR if you are gopher...
 - [Github: Top Go GitHub developers in Taiwan](http://github-awards.com/users?utf8=%E2%9C%93&type=country&language=Go&country=Taiwan)
+- [GoLang Basic](http://golang-basic.blogspot.tw/)
+    - 許多的基礎介紹，但是都相當的實用．
 
 ### Algorithm
 - [HyperLogLog and HyperLogLog++ implementation in Go/Golang.
@@ -229,6 +250,8 @@ http://godoc.org/github.com/clarkduvall/hyperloglog](https://github.com/clarkduv
 
 - [Glide: Image Loader Library for Android](https://github.com/bumptech/glide)
     - Introduction and tutorial is [here](http://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en).
+- [WilliamChart: Android library to create charts.](https://github.com/diogobernardino/WilliamChart)    
+    - Android上面不錯用的圖表繪圖library，還有準備好的sample可以馬上使用．
 
 ## Python
 
