@@ -42,11 +42,12 @@
     - task/queue的系統．跟disque很類似
 - [ledisdb: a high performance NoSQL powered by Go http://ledisdb.com](https://github.com/siddontang/ledisdb)
     - 用Go寫出的NoSQL DB，可以在裡頭串接許多資料庫(boltdb，RocksDB，LevelDB)，並且可以支援很多種格式(KV, List, Hash, ZSet)．
+- [influxDb: Scalable datastore for metrics, events, and real-time analytics http://influxdb.com](https://github.com/influxdb/influxdb)
+    - 分散式並且支援time-series的資料庫，適合拿來存放監控性質的資料:比如說 CPU/memory usage或是Sensor系統測量．
 
 ### Command Line Tools
 - [Gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/motemen/gore)
     - 另外一個Go REPL的工具，支援許多shortcut跟即時顯示...
-- [termui: Golang terminal dashboard](https://github.com/gizak/termui)
 - [bat: Go implement CLI, cURL-like tool for humans](https://github.com/astaxie/bat)   
     - 可以簡單地在command line 發送http或是其他網路相關的指令．
 - [thefuck: Magnificent app which corrects your previous console command.](https://github.com/nvbn/thefuck)
@@ -73,6 +74,8 @@
     - 可以在SSH上監控流量與跟SSH的伺服器溝通．
 - [caddyserver](https://caddyserver.com/)  
     - Configurable, general-purpose HTTP/2 web server for any platform
+- [scrape: A higher level web scraping in Go](https://github.com/yhat/scrape) 
+    - 使用在Go HTML來做網路資料的抓取..
  
 ### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
@@ -82,6 +85,8 @@
 - [Code Jam 2015](https://code.google.com/codejam/distributed_index.html)
     - 可以用任何語言參加科技競賽，不過會被各國好手慘電．
 - [GoChallenge](http://golang-challenge.com/)    
+- [MIT: 6.824 Distribution System](http://nil.csail.mit.edu/6.824/2015/index.html)
+    - 使用Go當作lab作業語言的分散式系統，內容其實很有趣的．
 
 ### Error Handle
 
@@ -128,6 +133,8 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
     - 可以建立出encode/decode youtube ID...  會挺有用的.....  主要是長數字與ID之間轉換 (99999 <-> azzds)... 這篇有一篇[文章](http://kvz.io/blog/2009/06/10/create-short-ids-with-php-like-youtube-or-tinyurl/)敘述內容．
 - [slackin: Public Slack organizations made easy](https://github.com/rauchg/slackin)
     - 可以幫助你快速的讓人加入Slack Group..
+- [Grafana - A Graphite & InfluxDB Dashboard and Graph Editor http://grafana.org](https://github.com/grafana/grafana)
+    - 主要是用[Graphite: 一個JS的前端繪圖](https://github.com/graphite-project/graphite-web)與資料庫
 
     
 ### Science 
@@ -165,6 +172,10 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
 
 - [andlabs/ui: Platform-native GUI library for Go](https://github.com/andlabs/ui)
 - [go-qml/qml: QML support for the Go language](https://github.com/go-qml/qml)
+- [termui: Golang terminal dashboard](https://github.com/gizak/termui)
+    - 可以在command line上面畫出bar chart的長條圖與折線圖．
+- [chart: Provide basic charts in go](https://github.com/vdobler/chart)    
+    - 可以匯出svg或是txtg等等格式的折線圖與長條圖.. (bar chart)
 
 ### Meetups
 
