@@ -44,6 +44,11 @@
     - 用Go寫出的NoSQL DB，可以在裡頭串接許多資料庫(boltdb，RocksDB，LevelDB)，並且可以支援很多種格式(KV, List, Hash, ZSet)．
 - [influxDb: Scalable datastore for metrics, events, and real-time analytics http://influxdb.com](https://github.com/influxdb/influxdb)
     - 分散式並且支援time-series的資料庫，適合拿來存放監控性質的資料:比如說 CPU/memory usage或是Sensor系統測量．
+- [json-to-go:Translates JSON into a Go type in your browser instantly 
+https://mholt.github.io/json-to-go/](https://github.com/mholt/json-to-go)
+    - 把Json的資料格式直接parse出 Go 的資料結構..... 有點像是懶人包？
+- [jqplay: jq playground written by Go](https://github.com/jingweno/jqplay)    
+    - jq(json query) 是一個可以直接在json 結果上做query並且找出組合出你需要的資料串列．這裏有一個[tutorial](http://stedolan.github.io/jq/tutorial/)有教導怎麼使用．
 
 ### Command Line Tools
 - [Gore: Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.](https://github.com/motemen/gore)
@@ -54,6 +59,8 @@
     - 在console mode 打錯指令的時候，只要打出一個 fuck，自動會幫你把正確的指令拼出來．很有趣的點子．
 - [Colorizing `cat`](https://github.com/jingweno/ccat/)    
     - 可以讓你的cat加上syntax highlighter，並且因為是用Go寫得，會比[pygments](http://pygments.org/)更快． [這一篇](http://stackoverflow.com/a/30074374/1316907)有簡單的教學如何安裝加上更多的syntax highlither
+- [docli: Unofficial DigitalOcean command line client](https://github.com/bryanl/docli)
+    - 由digital ocean RD 開發的 command line client.. 不過還不是official.
 
 ### Network Framework
 - [GRPC: Go Project](https://github.com/grpc/grpc-go)
@@ -76,6 +83,8 @@
     - Configurable, general-purpose HTTP/2 web server for any platform
 - [scrape: A higher level web scraping in Go](https://github.com/yhat/scrape) 
     - 使用在Go HTML來做網路資料的抓取..
+- [VEGA - Building Wiki engine with Go, Angular
+Introduction](https://alexatnet.com/articles/vega-wiki-golang-angular)
  
 ### Challenge / Testing / Tutorial
 - [Operation Go](http://gocode.io/)
@@ -135,7 +144,15 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
     - 可以幫助你快速的讓人加入Slack Group..
 - [Grafana - A Graphite & InfluxDB Dashboard and Graph Editor http://grafana.org](https://github.com/grafana/grafana)
     - 主要是用[Graphite: 一個JS的前端繪圖](https://github.com/graphite-project/graphite-web)與資料庫
-
+- [pie: a toolkit for creating plugins for Go applications](https://github.com/natefinch/pie)
+    - 可以把每個process當成plugin來分開執行，任何錯誤不會影響原本的process
+- [monsti: Simple and resource efficient CMS for small sites 
+http://www.monsti.org](https://github.com/monsti/monsti)
+    - 簡易的CMS系統，可以架起簡單的網站，有文章編輯的功能．
+- [gvm:Go Version Manager ](https://github.com/moovweb/gvm)    
+    - 可以管理go version 的版本．
+- [gt: Russ Cox create tool for cache the result of go test](https://github.com/rsc/gt)
+    - Russ Cox新的小工具 gt 如果package沒有變動的狀況下，可以把go test結果cache起來好像不錯用.
     
 ### Science 
 
@@ -165,8 +182,15 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
     - Written by Googler non-official experimental library for cross platform UI implement.
 - [Visual Studio Extension: Go Language Support](https://visualstudiogallery.msdn.microsoft.com/bd7675ba-1bf5-4395-8c5a-4fc19dfc0d76)
 - [GoRuby, an implementation of Ruby written in Go](https://github.com/goruby/goruby)
-- [go-rpio: Raspberry Pi GPIO library for go-lang](https://github.com/- stianeikeland/go-rpio)
+- [go-rpio: Raspberry Pi GPIO library for go-lang](https://github.com/stianeikeland/go-rpio)
     - 不需要透過C library 可以存取RPI GPIO 
+- [CC:Cross platform C preprocessor and compiler.](https://github.com/andrewchambers/cc)
+    - 跨平台的C compiler
+- [Haxe: TARDIS Go transpiler](http://tardisgo.github.io/)
+    - 可以將Golang 轉成跨平台的通用語言 [Haxe](http://zh.wikipedia.org/wiki/Haxe)，這裡有一些簡單介紹[slide](https://speakerdeck.com/elliott5/prospects-for-using-go-libraries-in-haxe)
+- [Goby: a Ruby to Go translator](https://github.com/Ninh/Goby)
+    - 可以將ruby code 轉成 go code...
+- [GobiesVM: A Ruby VM written in Go aims to exploit parallelism via Software Transactional Memory](https://github.com/brucehsu/GobiesVM)    
 
 ### UI Framework
 
@@ -198,6 +222,10 @@ http://vaultproject.io](https://github.com/hashicorp/vault)
         - The Go community on Go﻿
 - [Youtube: FOSDEM 2015 Go present playlist](https://www.youtube.com/playlist?list=PLtLJO5JKE5YDK74RZm67xfwaDgeCj7oqb)
     - 關於Golng 有關的session集合，總而言之還是HTTP/2跟Go 1.5   
+### Go Generic PRogramming.
+
+- [goast is a Go AST utility with the aim of providing idiomatic meta-programming facilities for Go.](https://github.com/go-goast/goast)
+- [gotgo - go language generics system](https://github.com/droundy/gotgo)
 
 ### Go Robot
 
@@ -254,6 +282,12 @@ http://godoc.org/github.com/clarkduvall/hyperloglog](https://github.com/clarkduv
 - [Paypal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK)
     - 裡面有整套支付流程的SDK．
     - 這裏有另外的支付流程的方法(How To Accept Credit Cards In Your iOS Apps Using Stripe)[介紹](http://www.raywenderlich.com/30092/how-to-accept-credit-cards-in-your-ios-apps-using-stripe)
+
+### UI
+
+- [MZFormSheetController](https://github.com/m1entus/MZFormSheetController)
+    - MZFormSheetController provides an alternative to the native iOS UIModalPresentationFormSheet, adding support for iPhone and additional opportunities to setup controller size and feel form sheet.
+    - 很酷的 UI popup dialog Form Sheet
 
 ## Android
 
